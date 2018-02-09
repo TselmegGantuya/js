@@ -1,0 +1,151 @@
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+
+
+body
+{
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+@media all and (min-width: 768px){
+.wrapper{
+	width:90%;
+	margin: 2% 5%;
+}
+}
+@media all and (max-width: 768px){
+.wrapper{
+	width:90%;
+	
+}
+}
+@media all and (min-width: 768px){
+.container
+	{	
+		width: 75%;
+		margin: 0 12%
+	}
+}
+@media all and (max-width: 768px){
+.container
+	{
+		width:75%;
+	}
+}
+#stemmen
+{
+	display: none;
+	background-color: white;
+
+	flex-direction: column;
+}
+#begin{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+@media all and (min-width: 768px){
+.container .row #begin #enter
+{
+background-color: white;
+padding: 5px;
+width:70%;
+}
+}
+@media all and (max-width: 768px){
+.container .row #begin #enter
+{
+background-color: white;
+padding: 5px;
+width:100%
+}
+}
+.container .row #begin #enter button{
+	float:right;
+
+}
+@media all and (min-width: 768px){
+.container .row #begin .ad 
+{
+ background-color:#4fc0f5;
+ width:30%;
+ padding: 5px;
+}
+}
+@media all and (max-width: 768px){
+.container .row #begin .ad 
+{
+ background-color:#4fc0f5;
+ width:100%;
+ padding: 5px;
+}
+}
+.intro span
+{
+	visibility: hidden;
+}
+
+.intro
+{
+	background-image: url("../images/intro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.questsection
+{
+	display: none;
+	flex-direction: column;
+}
+.questsection div
+{
+	padding: 3px;
+}
+#back
+{
+	width:50px;
+	height:	50px;
+}
+#wat
+{
+	cursor: pointer;
+}
+.whatsparty
+{
+display: none;
+}
+#choose
+{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+#choose li 
+{
+	width:33%;
+}
+#party
+{
+	background-color: white;
+	display: none;
+}
+.main
+{
+	padding:5px;
+	margin-bottom: 50px;
+}
+#result
+{
+	display: none;
+	background-color: white;
+	flex-direction: column;
+	width:80%;
+
+}
+#resultaat
+{
+background-color: #4fc0f5;
+}
